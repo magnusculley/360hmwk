@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH -A bffp-dtai
 #SBATCH -p ghx4
 #SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
@@ -6,11 +7,8 @@
 #SBATCH --gres=gpu:4
 #SBATCH -t 00:10:00
 
-# Run Jacobi (8192)
 ./jacobi 8192 8192
 
-# Run Jacobi (16384)
 ./jacobi 16384 16384
 
-# Run Pi
 ./pi 1000000
