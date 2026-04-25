@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -A bffp-delta-gpu
-#SBATCH -p gpuA40x4-interactive
+#SBATCH -p ghx4
 #SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=5
