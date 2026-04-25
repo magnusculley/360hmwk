@@ -1,5 +1,4 @@
 #!/bin/bash
-#SBATCH -A bffp-delta-gpu
 #SBATCH -p ghx4
 #SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
