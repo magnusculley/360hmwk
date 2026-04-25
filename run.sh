@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A bffp-dtai
+#SBATCH -A grp_202
 #SBATCH -p ghx4
 #SBATCH --ntasks-per-node=1
 #SBATCH --nodes=1
